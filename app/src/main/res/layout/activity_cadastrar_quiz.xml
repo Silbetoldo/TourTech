@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_margin="20dp"
+    tools:context=".CadastrarQuiz">
+    <TextView
+        android:id="@+id/textViewQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cadastrar Quiz:"
+        android:textSize="28sp"
+        android:gravity="center"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Insira a pergunta"
+        android:layout_margin="8dp"
+        android:padding="8dp" />
+
+    <EditText
+        android:id="@+id/editTextAnswer1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Insira a resposta 1"
+        android:layout_margin="8dp"
+        android:padding="8dp" />
+
+
+
+    <EditText
+        android:id="@+id/editTextAnswer2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Insira a resposta 2"
+        android:layout_margin="8dp"
+        android:padding="8dp" />
+
+    <EditText
+        android:id="@+id/editTextAnswer3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Insira a resposta 3"
+        android:layout_margin="8dp"
+        android:padding="8dp" />
+    <EditText
+        android:id="@+id/editTextAnswer4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Insira a resposta correta"
+        android:layout_margin="8dp"
+        android:padding="8dp" />
+
+    <Button
+        android:id="@+id/buttonSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enviar"
+        android:layout_marginTop="16dp" />
+    <Button
+        android:id="@+id/btnVoltar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Voltar"
+        android:layout_marginTop="16dp" />
+</LinearLayout>
